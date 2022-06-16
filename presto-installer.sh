@@ -96,7 +96,7 @@ echo 'if command -v pyenv 1>/dev/null 2>&1; then' >> $HOME/.bashrc
 echo '  eval "$(pyenv init --path)"' >> $HOME/.bashrc
 echo 'fi' >> $HOME/.bashrc
 
-sourc  $HOME/.bashrc
+source  $HOME/.bashrc
 
 
 pyenv install 3.7.10
